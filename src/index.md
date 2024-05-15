@@ -14,9 +14,9 @@
 
 | Day | Time (BST) | Location | Topics covered |
 |-----|----------|-------|----------|
-| 5th June 2023 | 8:30 - 17:00 | UEA BDS 0.21 | Python basics |
-| 6th June 2023 | 9:00 - 17:00 | UEA BDS 0.21 | Functions, simple programs and arrays |
-| 9th June 2023 | 9:00 - 17:00 | UEA BDS 0.21 | Plotting and data analysis |
+| 1st of July 2023 | 8:30 - 17:00 | UEA BDS 0.21 | Python basics |
+| 2nd of July 2023 | 9:00 - 17:00 | UEA BDS 0.21 | Functions, simple programs and arrays |
+| 3rd of July 2023 | 9:00 - 17:00 | UEA BDS 0.21 | Plotting and data analysis |
 
 Full timetable available [here](programme.md).
 

@@ -33,7 +33,7 @@ Following the course, there are a number of modules available for use of python 
 However, for the purpose of this course, we recommend viewing the notebooks on your own machine. 
 
 ## 2. Download course materials
-From the Friday before the course (2nd of June) the material for the workshop can be downloaded as a [zip file](https://github.com/ueapy/pythoncourse2023-materials/archive/main.zip) or can be cloned from our [GitHub repository](https://github.com/ueapy/pythoncourse2023-materials). 
+From the Friday before the course (28th of June) the material for the workshop can be downloaded as a [zip file](https://github.com/ueapy/pythoncourse2023-materials/archive/main.zip) or can be cloned from our [GitHub repository](https://github.com/ueapy/pythoncourse2023-materials). 
 
 
 ### Option 1: Download ZIP file (easier)
