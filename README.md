@@ -1,6 +1,6 @@
 # Website for Cefas and Aries Python course 2024
 
-https://github.com/ueapy/pythoncourse2024-website
+https://ueapy.github.io/pythoncourse2024-website/
 
 
 Steps to generate pages using mkdocs:
