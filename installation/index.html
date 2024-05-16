@@ -324,7 +324,7 @@
 <p>If your laptop is configured to use the eduroam academic network this will be available across campus. Alternatively <a href="https://account.thecloud.eu/spportal/">register to Sky's free WiFi The Cloud</a>.</p>
 <h1 id="laptop-installation">Laptop Installation</h1>
 <p>For this course you will need to have Python installed on your laptop, including some extra packages. Follow the instructions below to set up your Python environment. Make sure you do this do this <strong>before</strong> the course, including running the test as below. There will be a troubleshooting session on the first day at 8:30 as advertised in the invite email.</p>
-<p>As an alternative you can use cloud hosting by <a href="https://mybinder.org/v2/gh/ueapy/pythoncourse2023-materials/main?urlpath=lab"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a> to run all the lessons with the data here contained (it is not possible to load your own data), but any changes made won't be saved.</p>
+<p>As an alternative you can use cloud hosting by <a href="https://mybinder.org/v2/gh/ueapy/pythoncourse2024-materials/main?urlpath=lab"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a> to run all the lessons with the data here contained (it is not possible to load your own data), but any changes made won't be saved.</p>
 <p>Feel free to contact <a href="mailto:jennifer.graham@cefas.co.uk">Jenny at Cefas</a> or <a href="mailto:e.karlowska@uea.ac.uk">Eliza at UEA</a> if you have any problems with the installation (but better do an internet search first!)
 Note: The course is designed in Python 3.9 but even if you have a different version installed, 3.9 will be installed when creating a conda environment in step 3 below.</p>
 <h2 id="1-install-python-distribution">1. Install Python distribution</h2>
@@ -340,9 +340,9 @@ Note: The course is designed in Python 3.9 but even if you have a different vers
 <p>Following the course, there are a number of modules available for use of python on Ada, using either mamba or anaconda. </p>
 <p>However, for the purpose of this course, we recommend viewing the notebooks on your own machine. </p>
 <h2 id="2-download-course-materials">2. Download course materials</h2>
-<p>From the Friday before the course (28th of June) the material for the workshop can be downloaded as a <a href="https://github.com/ueapy/pythoncourse2023-materials/archive/main.zip">zip file</a> or can be cloned from our <a href="https://github.com/ueapy/pythoncourse2023-materials">GitHub repository</a>. </p>
+<p>From the Friday before the course (28th of June) the material for the workshop can be downloaded as a <a href="https://github.com/ueapy/pythoncourse2024-materials/archive/main.zip">zip file</a> or can be cloned from our <a href="https://github.com/ueapy/pythoncourse2024-materials">GitHub repository</a>. </p>
 <h3 id="option-1-download-zip-file-easier">Option 1: Download ZIP file (easier)</h3>
-<p>Download the materials as a <a href="https://github.com/ueapy/pythoncourse2023-materials/archive/main.zip">zip file</a> and unpack it in a suitable directory, for example, in <code>Downloads</code> folder. Jump to <a href="./#3.-Create-the-environment">3. Create the environment</a>.</p>
+<p>Download the materials as a <a href="https://github.com/ueapy/pythoncourse2024-materials/archive/main.zip">zip file</a> and unpack it in a suitable directory, for example, in <code>Downloads</code> folder. Jump to <a href="./#3.-Create-the-environment">3. Create the environment</a>.</p>
 <h3 id="option-2-using-git-allows-restoring-originals-after-modifications">Option 2: Using Git (allows restoring originals after modifications)</h3>
 <h4 id="21-install-git">2.1. Install Git</h4>
 <p>If you don't have git version control system installed, you can install it following these instructions:</p>
@@ -363,7 +363,7 @@ Note: The course is designed in Python 3.9 but even if you have a different vers
 <p>2.2.1. Open the command line (Git bash, terminal or cmd.exe)</p>
 <p>2.2.2. (Linux or Mac, optional) Change to a suitable directory (e.g. <code>cd /home/yourname/Documents</code>)</p>
 <p>2.2.3. Clone the repo by typing</p>
-<pre><code>git clone https://github.com/ueapy/pythoncourse2023-materials.git
+<pre><code>git clone https://github.com/ueapy/pythoncourse2024-materials.git
 </code></pre>
 <p>This should create a local copy of the course materials in the current directory.</p>
 <p>Windows-users, double check that it has been cloned in the directory you wanted.</p>
@@ -371,7 +371,7 @@ Note: The course is designed in Python 3.9 but even if you have a different vers
 <p>3.1. Make sure Anaconda or Mambaforge is installed and the course materials are downloaded</p>
 <p>3.2. Open the command line or python prompt (i.e., search "Terminal" on Mac Spotlight Seach; search "Anaconda prompt" or "mamba" on Windows start menu)</p>
 <p>3.3. Navigate to folder containing the cloned / downloaded course materials. Use the <code>cd</code> command, for example:</p>
-<pre><code>cd C:\Users\myname\Downloads\pythoncourse2023-materials\
+<pre><code>cd C:\Users\myname\Downloads\pythoncourse2024-materials\
 </code></pre>
 <p>3.4. Create the environment using <code>conda</code> package manager:</p>
 <pre><code class="language-bash">conda env create -f environment.yml
@@ -384,11 +384,11 @@ Note: The course is designed in Python 3.9 but even if you have a different vers
 <h2 id="4-activate-the-environment">4. Activate the environment</h2>
 <h3 id="linux-mac">Linux / Mac</h3>
 <p>If your default shell is NOT bash, first type <code>bash</code>. Activate the relevant environment by typing:</p>
-<pre><code class="language-bash">conda activate course2023
+<pre><code class="language-bash">conda activate course2024
 </code></pre>
 <h3 id="windows_1">Windows</h3>
 <p>Still in the command line (Anaconda/mamba prompt), type:</p>
-<pre><code>conda activate course2023
+<pre><code>conda activate course2024
 </code></pre>
 <h2 id="5-test-the-installation-essential">5. Test the installation (essential!)</h2>
 <p>From the terminal type:</p>
@@ -404,7 +404,7 @@ Note: The course is designed in Python 3.9 but even if you have a different vers
 </code></pre>
 <h2 id="still-having-trouble">Still having trouble?</h2>
 <p>If you are unable to install Anaconda Python on your PC, contact the <a href="..#registration-and-enquiries">course organisers</a>.
-Another option: launch the course in the cloud! <a href="https://mybinder.org/v2/gh/ueapy/pythoncourse2023-materials/main?urlpath=lab"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a> This requires no installation but progress and modifications won't be saved.</p>
+Another option: launch the course in the cloud! <a href="https://mybinder.org/v2/gh/ueapy/pythoncourse2024-materials/main?urlpath=lab"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a> This requires no installation but progress and modifications won't be saved.</p>
 
               
             </article>
