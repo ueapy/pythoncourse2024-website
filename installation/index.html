@@ -754,7 +754,7 @@
 
 
 <h1 id="installation-instructions">Installation instructions</h1>
-<h2 id="note-wifi-access-for-cefas-staff">Note: WiFi access for Cefas staff</h2>
+<h4 id="note-wifi-access-for-cefas-staff">Note: WiFi access for Cefas staff</h4>
 <p>If your laptop is configured to use the eduroam academic network this will be available across campus. Alternatively <a href="https://account.thecloud.eu/spportal/">register to Sky's free WiFi The Cloud</a>.</p>
 <p>It is recommended to have python installed on your laptop. Nevertheless there are two alternatives:</p>
 <ul>
@@ -762,14 +762,12 @@
 <p>If you are unable to install python on your laptop, you can use the free cloud hosting service <a href="https://mybinder.org/v2/gh/ueapy/pythoncourse2024-materials/main?urlpath=lab"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a>. It will allow you to run all the lessons with the accompaigning data albeit with some limitations. It will be slower to start a session and run more involved examples, and it will not allow you to load your own data or save any changes made to the lessons.</p>
 </li>
 <li>
-<p>If you already have an account on the Ada High Performance Computing Cluster, then it would be possible to run the Jupyter notebooks of the lessons by starting a session on <a href="https://adaood01.uea.ac.uk/">Ada OnDemand</a>. You can try to follow the instructions for laptops for copying and running the lessons, but we won't be able to provide support to get yourself setup.</p>
+<p>If you already have an account on the Ada High Performance Computing Cluster, then it would be possible to run the Jupyter notebooks of the lessons by starting a session on <a href="https://adaood01.uea.ac.uk/">Ada OnDemand</a>. You can try to follow the instructions below for copying and running the lessons, but we won't be able to provide support to get yourself setup.</p>
 </li>
 </ul>
 <h2 id="1-laptop-installation">1. Laptop Installation</h2>
 <p>For this course it is recommneded that you have Python installed on your laptop. Follow the instructions below to set up your Python environment with the required packages used in the lessons. Make sure you do this do this <strong>before</strong> the course, including running the test as below. There will be a troubleshooting session on the first day at 8:30 as advertised in the invite email.</p>
-<p>As an alternative you can use cloud hosting by <a href="https://mybinder.org/v2/gh/ueapy/pythoncourse2024-materials/main?urlpath=lab"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a> to run all the lessons with the accompaigning data, but it is not possible to load your own data or save any changes made to the lessons.</p>
-<p>Feel free to contact <a href="mailto:claire.beraud@cefas.co.uk">Claire at Cefas</a> or <a href="mailto:e.karlowska@uea.ac.uk">Eliza at UEA</a> if you have any problems with the installation (but better do an internet search first!)
-Note: The course is designed in Python 3.9 but even if you have a different version installed, 3.9 will be installed when creating a conda environment in step 3 below.</p>
+<p>Feel free to contact <a href="mailto:claire.beraud@cefas.co.uk">Claire at Cefas</a> or <a href="mailto:e.karlowska@uea.ac.uk">Eliza at UEA</a> if you have any problems with the installation (but better do an internet search first!)</p>
 <h3 id="11-install-python-distribution">1.1 Install Python distribution</h3>
 <h4 id="cefas-users">Cefas Users</h4>
 <p>You will neet to request in advance a temporary administrator password to make the installation. </p>
@@ -801,12 +799,12 @@ Note: The course is designed in Python 3.9 but even if you have a different vers
 <h6 id="linux">Linux</h6>
 <p>Use your package manager. For example, using aptitude you would run the following terminal command: <code>sudo apt-get install git</code></p>
 <h6 id="mac">Mac</h6>
+<p>The XCode command line tools need to be installed.</p>
 <ul>
-<li>The XCode command line tools need to be installed.</li>
 <li>Install XCode if it isn’t already. XCode is available in the Mac App Store for free.</li>
 <li>Launch XCode and accept the license agreement.</li>
 <li>Quit XCode.</li>
-<li>Open a new terminal and run the command xcode-select --install</li>
+<li>Open a new terminal and run the command <code>xcode-select --install</code></li>
 <li>Select install on the pop-up menu.</li>
 </ul>
 <h6 id="windows">Windows</h6>
