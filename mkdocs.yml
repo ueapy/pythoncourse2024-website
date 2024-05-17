@@ -1,19 +1,21 @@
-site_name: Python Course 2023
+site_name: Python Course 2024
 theme:
   favicon: 'img/favicon.ico'
   name: material
+  features:
+    - navigation.tabs
 markdown_extensions:
   - admonition
 
-site_url: https://ueapy.github.io/pythoncourse2023-website
-repo_url: https://github.com/ueapy/pythoncourse2023-website
+
+site_url: https://ueapy.github.io/pythoncourse2024-website
+repo_url: https://github.com/ueapy/pythoncourse2024-website
 site_author: Tiago Silva (after Eliza Karlowska, Denis Sergeev)
 docs_dir: src
 site_dir: _site
 
 nav:
   - Home: index.md
-  - Programme: programme.md
+    #  - Programme: programme.md
   - Content: content.md
   - Installation: installation.md
-  - Resources: resources.md

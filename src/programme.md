@@ -3,7 +3,7 @@
 Before the course, follow the [installation instructions](installation.md) *and make sure to run the tests*.
 
 ## Day 1 - Python basics
-Monday 1st of July 2023, 8:30 - 17:00 BST
+Monday 1st of July 2024, 8:30 - 17:00 BST
 Location: UEA BDS 0.21
 
 | Notebook # | Topic                       | Type     | Time  | Duration |
@@ -26,7 +26,7 @@ Location: UEA BDS 0.21
 | 7          | Control flow statements     | Lectures | 15:35 |  1:00    |
 
 ## Day 2 -  Functions, simple programs and arrays
-Tuesday 2nd of July 2023, 9:00 - 17:00 BST
+Tuesday 2nd of July 2024, 9:00 - 17:00 BST
 Location: UEA BDS 0.21
 
 | Notebook # | Topic                     | Type         | Time  | Duration |
@@ -48,7 +48,7 @@ Location: UEA BDS 0.21
 | 13         | NumPy: explore arrays     | Lecture      | 16:30 |  0:30    |
 
 ## Day 3 -  Plotting and data analysis
-Friday 3rd of July 2023, 9:00 - 17:00 BST
+Friday 3rd of July 2024, 9:00 - 17:00 BST
 Location: UEA BDS 0.21
 
 | Notebook # | Topic                     | Type     | Time  | Duration |
